@@ -1,0 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Quantico:ital,wght@1,700&display=swap");
+.nav {
+  height: 100px;
+  background-color: yellow;
+}
+
+#title {
+  font-family: "Quantico", sans-serif;
+  font-size: 40px;
+}
+
+/*# sourceMappingURL=style.css.map */
