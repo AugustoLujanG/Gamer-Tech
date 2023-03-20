@@ -2,6 +2,7 @@ import React from 'react'
 import { useParams } from 'react-router-dom'
 import ItemList from './ItemList'
 import productos from './productos.json'
+import { SimpleGrid } from '@chakra-ui/react'
 
 const ItemListContainer = () => {
 
@@ -9,9 +10,9 @@ const ItemListContainer = () => {
     const catFilter = productos.filter((producto) => producto.category === category)
 
     return (
-        <div>
+        <SimpleGrid columns={{sm: 2, md: 3}} spacing='30px' spacingY='20px'>
             {category ? <ItemList productos={catFilter} /> : <ItemList productos={productos} />}
-        </div>
+        </SimpleGrid>
     )
 }
 

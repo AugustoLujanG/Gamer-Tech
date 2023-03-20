@@ -33,7 +33,7 @@ const ItemDetail = ({productos}) => {
           </CardBody>
           <Divider />
           <CardFooter className="card-footer">
-            <Center className="btn-center">
+            <Center>
               <ItemCount>
               </ItemCount>
             </Center>

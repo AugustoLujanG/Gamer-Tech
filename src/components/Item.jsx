@@ -6,8 +6,7 @@ const Item = ( {producto}) => {
   return (
     <div>
       <div key={producto.id}>
-        <Center p="1rem">
-          <Card className="card-main">
+          <Card>
             <CardBody>
               <Image borderradius="lg" src={producto.image} />
               <Stack mt="6" spacing="3">
@@ -24,12 +23,11 @@ const Item = ( {producto}) => {
             <CardFooter className="card-footer">
               <Center className="btn-center">
                 <Button variant="solid" colorScheme="blue">
-                  <Link to={`/item/${producto.id}`}> Detalles</Link>
+                  <Link to={`/item/${producto.id}`}>Detalles</Link>
                 </Button>
               </Center>
             </CardFooter>
           </Card>
-        </Center>
       </div>
     </div>
   )

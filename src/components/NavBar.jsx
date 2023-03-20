@@ -1,6 +1,6 @@
 import React from 'react'
 import CartWidget from './CartWidget'
-import { Menu, MenuButton, MenuList, MenuItem, Image, Box, Flex, Spacer, Heading, Center } from '@chakra-ui/react'
+import { Menu, MenuButton, MenuList, MenuItem, Image, Box, Flex, Spacer, Heading, Center, Button } from '@chakra-ui/react'
 import componentes from '../images/componentes.webp'
 import escritorio from '../images/escritorio.webp'
 import gabinete from '../images/gabinete.webp'
@@ -13,16 +13,18 @@ const NavBar = () => {
         <div className='nav'>
             <Box>
                 <Flex>
-                    <Center w='70px' h='20' ml='7'>
+                    <Center w='100px' h='20' ml='7'>
                         <Menu>
                             <Link to={"/productos"}>
-                                <MenuButton>
+                                <Button colorScheme='teal' variant='solid'>
                                     Productos
-                                </MenuButton>
+                                </Button>
                             </Link>
                         </Menu>
+                    </Center>
+                    <Center h='20' ml='7'>
                         <Menu>
-                            <MenuButton>
+                            <MenuButton as={Button} bg='#4FD1C5'>
                                 Categorías
                             </MenuButton>
                             <MenuList>

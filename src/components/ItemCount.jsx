@@ -45,8 +45,8 @@ const ItemCount = () => {
                     onKeyDown={handleKeyDown}
                 />
                 <Button colorScheme="red" onClick={restar}>-</Button>
-                <Button onClick={onADd}>Agregar al carrito</Button>
             </ButtonGroup>
+            <Button colorScheme="#FF5733" bg="#4299E1" ml="20px" onClick={onADd}>Agregar al carrito</Button>
         </>
     )
 }
