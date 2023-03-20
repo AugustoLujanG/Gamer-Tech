@@ -17,11 +17,16 @@ const NavBar = () => {
                         <Menu>
                             <Link to={"/productos"}>
                                 <MenuButton>
-                                    Categorías
+                                    Productos
                                 </MenuButton>
                             </Link>
+                        </Menu>
+                        <Menu>
+                            <MenuButton>
+                                Categorías
+                            </MenuButton>
                             <MenuList>
-                                <Link to={`/categorias/${"Componentes"}`}>
+                                <Link to={`/category/${"Componentes"}`}>
                                     <MenuItem minH='48px'>
                                         <Image
                                             boxSize='2rem'
@@ -33,7 +38,7 @@ const NavBar = () => {
                                         <span>Componentes</span>
                                     </MenuItem>
                                 </Link>
-                                <Link to={`/categorias/${"Escritorios"}`}>
+                                <Link to={`/category/${"Escritorios"}`}>
                                     <MenuItem minH='40px'>
                                         <Image
                                             boxSize='2rem'
@@ -45,7 +50,7 @@ const NavBar = () => {
                                         <span>Escritorios</span>
                                     </MenuItem>
                                 </Link>
-                                <Link to={`/categorias/${"Gabinetes"}`}>
+                                <Link to={`/category/${"Gabinetes"}`}>
                                     <MenuItem minH='40px'>
                                         <Image
                                             boxSize='2rem'
@@ -57,7 +62,7 @@ const NavBar = () => {
                                         <span>Gabinetes</span>
                                     </MenuItem>
                                 </Link>
-                                <Link to={`/categorias/${"Perifericos"}`}>
+                                <Link to={`/category/${"Periféricos"}`}>
                                     <MenuItem minH='40px'>
                                         <Image
                                             boxSize='2rem'
@@ -69,7 +74,7 @@ const NavBar = () => {
                                         <span>Periféricos</span>
                                     </MenuItem>
                                 </Link>
-                                <Link to={`/categorias/${"Sillas"}`}>
+                                <Link to={`/category/${"Sillas"}`}>
                                     <MenuItem minH='40px'>
                                         <Image
                                             boxSize='2rem'

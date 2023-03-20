@@ -1,0 +1,51 @@
+[
+    {
+        "id": "ram1",
+        "name": "Memoria Ram 8 Gb Ddr4 2666mhz Kingston Hyperx Fury Beast Rgb",
+        "description":"Memoria Kingston FURY Beast DDR4 RGB Kingston FURY™ Beast DDR4 RGB ofrece un aumento de rendimiento y estilo con velocidades de hasta 3733 MHz, un estilo agresivo e iluminación RGB que recorre la longitud del módulo para lograr efectos increíbles y sorprendentes. Disponible en velocidades de 2666 MHz–3733 MHz, latencias de CL15-19, capacidades de módulo único de 8 GB-32 GB y capacidades de kit de 16 GB-128 GB. Cuenta con overclocking automático de Plug N Play a velocidades de 2666 MHz2 está preparada para Intel® XMP y preparada para AMD Ryzen™.",
+        "price": 26600,
+        "stock": 5,
+        "category": "Componentes",
+        "image": "https://hard-digital.com.ar/files/Memoria%20Ram%208%20Gb%20Ddr4%202666mhz%20Kingston%20Hyperx%20Fury%20Beast%20Rgb/1.jpg" 
+    },
+
+    {
+        "id": "escritorio1",
+        "name": "Escritorio Gamer GENESIS HOLM 200 RGB",
+        "description":"Escritorio Gamer color negro, 1130 x 600 x 750 mm. Peso máximo soportado: 55 Kg",
+        "price": 69270,
+        "stock": 3,
+        "category": "Escritorios",
+        "image": "data:image/png;base64,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"
+    },
+
+    {
+        "id": "gabinete1",
+        "name": "Gabinete Pc Gamer Sentey P20 Sf Usb 3.0 Rgb Filtro Atx",
+        "description":"NO INCLUYE FUENTE DE ALIMENTACIÓN. Posee un puerto USB 2.0.1 y otro 3.0. Dimensiones: 430 x 196 x 33x mm",
+        "price": 22000,
+        "stock": 7,
+        "category": "Gabinetes",
+        "image": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSiIZcO-QmQyFGnwe--rED8L-DbGFb7yYe3L0WyczX0g4hqfXYKbgv2ZREoywiB15VdreP_2m_5D3M&usqp=CAc"
+    },
+
+    {
+        "id": "periferico1",
+        "name": "Teclado Mecánico Rgb Hyperx Alloy Mkw100 Gamer Switch Red Pc",
+        "description":"Teclado TTC Linear Red USB con retroiluminación RGB compatible con PS5, PS4, Xbox Series XIS, Xbox One",
+        "price": 18000,
+        "stock": 10,
+        "category": "Periféricos",
+        "image": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQcbUm3ii7RLajY138RytNX4jlSMu-TrDZKaSqe33_pOh5Hxql26OO2QtUJu8LqN5uf44W5LRO8&usqp=CAc"
+    },
+
+    {
+        "id": "silla1",
+        "name": "Silla Gamer Económic",
+        "description":"Silla gamer tapizada de cuero con altura regulable, respaldo reclinable y giratoria. Soporta hasta 150 kg",
+        "price": 56800,
+        "stock": 2,
+        "category": "Sillas",
+        "image": "https://http2.mlstatic.com/D_NQ_NP_694084-MLA49772986453_042022-O.jpg"
+    }
+]
