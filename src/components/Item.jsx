@@ -1,8 +1,8 @@
 import { Button, Card, CardBody, CardFooter, Center, Divider, Heading, Image, Stack, Text } from '@chakra-ui/react'
 import React from 'react'
 import { Link } from 'react-router-dom'
-// ESTE TIENE QUE TENER EL CARD DE CHAKRA
-const Item = ( {producto}/*{ id, name, stock, category, image }*/) => {
+
+const Item = ( {producto}) => {
   return (
     <div>
       <div key={producto.id}>

@@ -1,4 +1,4 @@
-import { ButtonGroup, Button } from '@chakra-ui/react';
+import { ButtonGroup, Button, Input } from '@chakra-ui/react';
 import React from 'react'
 import { useState } from "react"
 
@@ -13,6 +13,21 @@ const ItemCount = () => {
         }
     }
 
+    function handleChange(event) {
+        const value = event.target.value;
+        if (!isNaN(value) && parseInt(value) >= 0) {
+            setContador(parseInt(value));
+        } else {
+            setContador(0);
+        }
+    }
+    function handleKeyDown(event) {
+        if (event.key === "Backspace" && contador === 0) {
+            event.preventDefault();
+            setContador(0);
+        }
+    }
+
     const onADd = () => {
         console.log("Agregado al carrito")
         setContador(0)
@@ -21,7 +36,14 @@ const ItemCount = () => {
         <>
             <ButtonGroup>
                 <Button colorScheme="green" onClick={() => setContador(contador + 1)}>+</Button>
-                <h2>{contador}</h2>
+                <Input
+                    type="text"
+                    pattern="\d*"
+                    inputMode="numeric"
+                    value={contador === 0 ? "" : contador}
+                    onChange={handleChange}
+                    onKeyDown={handleKeyDown}
+                />
                 <Button colorScheme="red" onClick={restar}>-</Button>
                 <Button onClick={onADd}>Agregar al carrito</Button>
             </ButtonGroup>
